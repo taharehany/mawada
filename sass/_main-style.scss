@@ -9,7 +9,7 @@ a {
 }
 
 .main-title {
-	margin-bottom: 5rem;
+	margin-bottom: 3.5rem;
 
 	h2 {
 		font-size: 28px;
@@ -405,6 +405,30 @@ header {
 	.offcanvas-start {
 		width: 270px;
 	}
+
+	.phone-number {
+		background-color: $second_color;
+		color: #fff !important;
+		font-weight: 700;
+		padding: 10px 25px;
+		line-height: normal;
+		position: relative;
+		text-decoration: none;
+		font-size: 18px;
+		position: relative;
+
+		// &::after {
+		// 	position: absolute;
+		// 	content: "";
+		// 	left: 5px;
+		// 	top: 5px;
+		// 	width: 100%;
+		// 	height: 100%;
+		// 	border: 2px solid #fff;
+		// 	@include borderRadius(5px);
+		// 	@include transition(all ease 0.3s);
+		// }
+	}
 }
 
 //header
@@ -500,7 +524,7 @@ section.main-slider {
 //about
 section.about {
 	padding: $padding_section;
-	background: url(../images/bgs/01.jpg);
+	// background: url(../images/bgs/01.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -554,6 +578,24 @@ section.about {
 section.services {
 	padding: $padding_section;
 	background-color: #edf1fd;
+	padding: $padding_section;
+	background: url(../images/bgs/01.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 1;
+
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #edf1fd;
+		opacity: 0.8;
+		z-index: -1;
+	}
 
 	.row {
 		row-gap: 35px;
@@ -561,7 +603,7 @@ section.services {
 
 	.row > * {
 		padding-right: calc(var(--bs-gutter-x));
-		padding-left: calc(var(--bs-gutter-x));
+		padding-inline-start: calc(var(--bs-gutter-x));
 	}
 
 	.services-box {
@@ -570,7 +612,8 @@ section.services {
 			width: 100px;
 			@include borderRadius(50%);
 			display: inline-block;
-			background-color: $second_color;
+			background-color: #fff;
+			border: 1px solid $main_color;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -579,7 +622,7 @@ section.services {
 			color: #000;
 			margin-bottom: -40px;
 			position: relative;
-			z-index: 1;
+			z-index: 2;
 
 			i {
 				@include transition(all linear 0.3s);
@@ -626,10 +669,11 @@ section.services {
 			background-color: #fff;
 			@include borderRadius(7px 7px 30px);
 			@include transition(all linear 0.3s);
-			padding: 100px 25px 30px;
+			padding: 70px 25px 25px;
 			position: relative;
 			margin: auto;
 			box-shadow: 0 3px 12px rgb(0 0 0 / 5%);
+			z-index: 1;
 
 			&::after {
 				position: absolute;
@@ -641,12 +685,13 @@ section.services {
 				border: 2px solid $main_color;
 				@include borderRadius(7px 7px 30px);
 				@include transition(all ease 0.3s);
+				z-index: -1;
 			}
 
 			.subtitle {
 				color: #222;
 				text-transform: capitalize;
-				font-size: 16px;
+				font-size: 18px;
 				line-height: 1.2;
 				@extend %max_lines;
 				-webkit-line-clamp: 2;
@@ -662,7 +707,7 @@ section.services {
 
 			.details {
 				color: #515151;
-				font-size: 15px;
+				font-size: 16px;
 				@extend %max_lines;
 				// -webkit-line-clamp: 3;
 				min-height: 135px;
@@ -688,7 +733,7 @@ section.services {
 //clients
 section.clients {
 	padding: $padding_section;
-	background: url(../images/bgs/01.jpg);
+	// background: url(../images/bgs/01.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -716,7 +761,7 @@ section.clients {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			padding: 50px;
+			padding: 15px;
 
 			img {
 				-o-object-fit: contain;
@@ -736,10 +781,10 @@ section.contact {
 	background-color: #edf1fd;
 
 	.content {
-		background-color: #fff;
-		@include boxshadow(0 10px 20px rgb(0 0 0 / 5%));
-		max-width: 770px;
-		margin: auto;
+		// background-color: #fff;
+		// @include boxshadow(0 10px 20px rgb(0 0 0 / 5%));
+		// max-width: 770px;
+		// margin: auto;
 
 		.image {
 			height: 100%;
@@ -750,7 +795,9 @@ section.contact {
 		}
 
 		.contact-form {
-			padding: 40px;
+			background-color: #fff;
+			@include boxshadow(0 10px 20px rgb(0 0 0 / 5%));
+			padding: 30px;
 
 			.form-group {
 				margin-bottom: 20px;
@@ -767,10 +814,10 @@ section.contact {
 				.form-select {
 					display: block;
 					width: 100%;
-					line-height: 28px;
+					line-height: 20px;
 					padding: 10px 15px;
 					color: #222222;
-					font-size: 14px;
+					font-size: 16px;
 					font-weight: 400;
 					border-radius: 0px;
 					background-color: #f3f3f3;
@@ -784,6 +831,108 @@ section.contact {
 
 				textarea {
 					height: auto !important;
+				}
+			}
+		}
+
+		.info {
+			padding-top: 30px;
+			padding-inline-start: 30px;
+
+			h2 {
+				font-size: 22px;
+				margin-bottom: 2rem;
+				font-weight: 600;
+			}
+		}
+
+		.contact-info {
+			ul {
+				padding: 0;
+				margin-bottom: 25px;
+
+				li {
+					padding-inline-start: 40px;
+					position: relative;
+					list-style: none;
+					margin-bottom: 25px;
+					font-size: 14px;
+
+					a {
+						&.btn {
+							padding-inline-start: 0;
+							padding-top: 0;
+							color: $main_color;
+							font-weight: 600;
+						}
+					}
+
+					i {
+						position: absolute;
+						font-size: 14px;
+						right: 0;
+						background-color: #fff;
+						height: 25px;
+						width: 25px;
+						text-align: center;
+						line-height: 25px;
+						color: #333;
+						@include borderRadius(5px);
+						@include transition(all ease 0.3s);
+					}
+
+					span {
+						display: block;
+						color: #fefefe;
+					}
+
+					&:hover {
+						i {
+							color: $main_color;
+							background-color: #fff;
+							border-color: $main_color;
+						}
+					}
+				}
+			}
+		}
+
+		.social-media {
+			ul {
+				padding: 0;
+				margin-bottom: 0;
+
+				li {
+					list-style: none;
+					display: inline-block;
+					margin-right: 5px;
+
+					a {
+						color: #fff;
+
+						i {
+							font-size: 20px;
+							display: inline-block;
+							left: 0;
+							background-color: #fff;
+							height: 30px;
+							width: 30px;
+							text-align: center;
+							line-height: 30px;
+							color: #333;
+							@include borderRadius(5px);
+							@include transition(all ease 0.3s);
+							// border: 1px solid #d1d1d1;
+						}
+
+						&:hover {
+							i {
+								color: $main_color;
+								background-color: #fff;
+								border-color: $main_color;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -856,7 +1005,7 @@ section.contact {
 footer {
 	background-color: $main_color;
 	color: #fff;
-	padding: 60px 0 0;
+	// padding: 60px 0 0;
 
 	.row {
 		row-gap: 20px;
@@ -933,7 +1082,7 @@ footer {
 						}
 
 						&.btn {
-							padding-left: 0;
+							padding-inline-start: 0;
 							padding-top: 0;
 							color: $main_color;
 							font-weight: 600;
@@ -947,7 +1096,7 @@ footer {
 					padding: 0;
 
 					li {
-						padding-left: 20px;
+						padding-inline-start: 20px;
 						position: relative;
 						display: flex;
 						align-items: center;
@@ -976,7 +1125,7 @@ footer {
 				}
 
 				.btn {
-					padding-left: 0;
+					padding-inline-start: 0;
 					padding-top: 0;
 					color: $main_color;
 					font-weight: 600;
@@ -991,7 +1140,7 @@ footer {
 			.contact {
 				ul {
 					li {
-						padding-left: 40px;
+						padding-inline-start: 40px;
 						position: relative;
 						margin-bottom: 20px;
 

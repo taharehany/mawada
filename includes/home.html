@@ -5,7 +5,7 @@
     <div class="container">
       <div class="slider-text">
         <h1>مودة للتسويق الرقمي<br/><span class="diff-color">مودة .. الثقة لعملائنا</span></h1>
-        <p>نساعدك على تحسين وجودك الرقمي</p><a class="btn slider-btn" href="tel:+201098644314">تواصل معنا</a>
+        <p>نساعدك على تحسين وجودك الرقمي</p><a class="btn slider-btn" href="tel:0597334589">تواصل معنا</a>
       </div>
     </div>
   </div>
@@ -17,7 +17,7 @@
     <div class="content">
       <div class="main-title">
         <h2>نبذة عنا<span class="line"></span></h2>
-        <p>نحن فريق تسويق رقمي متميز وبخبرة مع أكثر من <strong>40 </strong>شركة في مصر والخليج العربي<br/>بإستهداف لغالبية دول العالم العربي والغربي وفي الكثير من المجالات والصناعات المختلفة.</p>
+        <p>نحن فريق تسويق رقمي متميز وبخبرة مع أكثر من <strong>40 </strong>شركة في الخليج العربي<br/>بإستهداف لغالبية دول العالم العربي والغربي وفي الكثير من المجالات والصناعات المختلفة.</p>
       </div>
       <div class="about-content">
         <div class="about-text">
@@ -36,7 +36,7 @@
       <h2>خدماتنا<span class="line"></span></h2>
     </div>
     <div class="services-content">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="box col-lg-4 col-md-6">
           <div class="services-box">
             <div class="icon"><img class="img-fluid" src="images/services/01.svg"/></div>
@@ -112,14 +112,18 @@
       <h2>من عملائنا<span class="line"></span></h2>
     </div>
     <div class="clients-content">
-      <div class="clients-box"></div>
-      <div class="clients-box"></div>
-      <div class="clients-box"></div>
-      <div class="clients-box"></div>
-      <div class="clients-box"></div>
-      <div class="clients-box"></div>
-      <div class="clients-box"></div>
-      <div class="clients-box"></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/01.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/02.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/03.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/04.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/05.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/06.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/07.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/08.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/09.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/10.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/11.png" alt=""/></div>
+      <div class="clients-box"><img class="img-fluid" src="images/clients/12.png" alt=""/></div>
     </div>
   </div>
 </section>
@@ -128,41 +132,64 @@
 <section class="contact" id="contact">
   <div class="container">
     <div class="content">
-      <div class="contact-form">
-        <div class="main-title">
-          <h2>تواصل معنا<span class="line"></span></h2>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="contact-form">
+            <div class="main-title">
+              <h2>تواصل معنا<span class="line"></span></h2>
+            </div>
+            <form action="send.php" method="POST">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="">الاسم *</label>
+                    <input class="form-control" type="text" name="name" placeholder="الاسم" required="required"/>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="">البريد الإلكتروني</label>
+                    <input class="form-control" type="email" name="email" placeholder="البريد الإلكتروني"/>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <label for="">الهاتف *</label>
+                    <input class="form-control" type="number" name="phone" placeholder="الهاتف" required="required"/>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <label for="">الرسالة *</label>
+                    <textarea class="form-control" name="message" rows="5" placeholder="اترك رسالتك هنا"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-btn">
+                <button class="btn" type="submit">إرسال الآن</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <form action="send.php" method="POST">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="form-group">
-                <label for="">الاسم *</label>
-                <input class="form-control" type="text" name="name" placeholder="الاسم" required="required"/>
-              </div>
+        <div class="col-md-5 col-lg">
+          <div class="info">
+            <div class="contact-info">
+              <h2>معلومات التواصل:</h2>
+              <ul> 
+                <li> <i class="bi bi-envelope"> </i><a href="mailto:contact@mawada.agency">بريد إلكتروني: contact@mawada.agency</a></li>
+                <li> <i class="bi bi-telephone"></i><a href="tel:0597334589" dir="ltr">هاتف: 0597334589</a></li>
+                <li> <i class="bi bi-whatsapp"></i><a href="tel:0597334589" dir="ltr">واتساب: 0597334589</a></li>
+              </ul>
             </div>
-            <div class="col-lg-6">
-              <div class="form-group">
-                <label for="">البريد الإلكتروني *</label>
-                <input class="form-control" type="email" name="email" placeholder="البريد الإلكتروني" required="required"/>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="form-group">
-                <label for="">الهاتف *</label>
-                <input class="form-control" type="number" name="phone" placeholder="الهاتف" required="required"/>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="form-group">
-                <label for="">الرسالة *</label>
-                <textarea class="form-control" name="message" rows="5" placeholder="اترك رسالتك هنا"></textarea>
-              </div>
+            <div class="social-media">
+              <h2>سوشيال ميديا:</h2>
+              <ul> 
+                <li> <a href="" target="_blank"><i class="bi bi-facebook"> </i></a></li>
+                <li> <a href="" target="_blank"><i class="bi bi-linkedin"> </i></a></li>
+              </ul>
             </div>
           </div>
-          <div class="contact-btn">
-            <button class="btn" type="submit">إرسال الآن</button>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   </div>

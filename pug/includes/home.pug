@@ -7,7 +7,7 @@ section(class="main-slider")
                     br
                     span(class="diff-color") مودة .. الثقة لعملائنا
                 p نساعدك على تحسين وجودك الرقمي
-                a(href="tel:+201098644314" class="btn slider-btn") تواصل معنا
+                a(href="tel:0597334589" class="btn slider-btn") تواصل معنا
 //main slider
 
 
@@ -20,7 +20,7 @@ section(class="about" id="about")
                     span(class="line")
                 p نحن فريق تسويق رقمي متميز وبخبرة مع أكثر من 
                     strong 40 
-                    | شركة في مصر والخليج العربي
+                    | شركة في الخليج العربي
                     br
                     | بإستهداف لغالبية دول العالم العربي والغربي وفي الكثير من المجالات والصناعات المختلفة.
             div(class="about-content")
@@ -37,7 +37,7 @@ section(class="services" id="services")
             h2 خدماتنا
                 span(class="line")
         div(class="services-content")
-            div(class="row")
+            div(class="row justify-content-center")
                 div(class="box col-lg-4 col-md-6")
                     div(class="services-box")
                         div(class="icon")
@@ -98,49 +98,82 @@ section(class="clients" id="clients")
             //- p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sunt nobis consectetur ab aut, temporibus magnam voluptates corporis reiciendis laudantium vel, nihil itaque at id, maxime expedita exercitationem tenetur
         div(class="clients-content")
             div(class="clients-box")
-                //- img(src="images/clients/01.png", class="img-fluid" alt="")
+                img(src="images/clients/01.png", class="img-fluid" alt="")
             div(class="clients-box")
-                //- img(src="images/clients/02.png", class="img-fluid" alt="")
+                img(src="images/clients/02.png", class="img-fluid" alt="")
             div(class="clients-box")
-                //- img(src="images/clients/03.png", class="img-fluid" alt="")
+                img(src="images/clients/03.png", class="img-fluid" alt="")
             div(class="clients-box")
-                //- img(src="images/clients/04.png", class="img-fluid" alt="")
+                img(src="images/clients/04.png", class="img-fluid" alt="")
             div(class="clients-box")
-                //- img(src="images/clients/05.png", class="img-fluid" alt="")
+                img(src="images/clients/05.png", class="img-fluid" alt="")
             div(class="clients-box")
-                //- img(src="images/clients/06.png", class="img-fluid" alt="")
+                img(src="images/clients/06.png", class="img-fluid" alt="")
             div(class="clients-box")
-                //- img(src="images/clients/07.png", class="img-fluid" alt="")
+                img(src="images/clients/07.png", class="img-fluid" alt="")
             div(class="clients-box")
-                //- img(src="images/clients/08.png", class="img-fluid" alt="")
+                img(src="images/clients/08.png", class="img-fluid" alt="")
+            div(class="clients-box")
+                img(src="images/clients/09.png", class="img-fluid" alt="")
+            div(class="clients-box")
+                img(src="images/clients/10.png", class="img-fluid" alt="")
+            div(class="clients-box")
+                img(src="images/clients/11.png", class="img-fluid" alt="")
+            div(class="clients-box")
+                img(src="images/clients/12.png", class="img-fluid" alt="")
 //clients
 
 //contact us
 section(class="contact" id="contact")
     div(class="container")
         div(class="content")
-            div(class="contact-form")
-                div(class="main-title")
-                    h2 تواصل معنا
-                        span(class="line")
-                form(action="send.php" method="POST")
-                    div(class="row")
-                        div(class="col-lg-6")
-                            div(class="form-group")
-                                label(for="") الاسم *
-                                input(type="text" name="name" class="form-control" placeholder="الاسم" required)
-                        div(class="col-lg-6")
-                            div(class="form-group")
-                                label(for="") البريد الإلكتروني *
-                                input(type="email" name="email" class="form-control" placeholder="البريد الإلكتروني" required)
-                        div(class="col-lg-12")
-                            div(class="form-group")
-                                label(for="") الهاتف *
-                                input(type="number" name="phone" class="form-control" placeholder="الهاتف" required)
-                        div(class="col-lg-12")
-                            div(class="form-group")
-                                label(for="") الرسالة *
-                                textarea(class="form-control" name="message" rows="5" placeholder="اترك رسالتك هنا")
-                    div(class="contact-btn")
-                        button(class="btn" type="submit") إرسال الآن
+            div(class="row")
+                div(class="col-md-7")
+                    div(class="contact-form")
+                        div(class="main-title")
+                            h2 تواصل معنا
+                                span(class="line")
+                        form(action="send.php" method="POST")
+                            div(class="row")
+                                div(class="col-lg-6")
+                                    div(class="form-group")
+                                        label(for="") الاسم *
+                                        input(type="text" name="name" class="form-control" placeholder="الاسم" required)
+                                div(class="col-lg-6")
+                                    div(class="form-group")
+                                        label(for="") البريد الإلكتروني
+                                        input(type="email" name="email" class="form-control" placeholder="البريد الإلكتروني")
+                                div(class="col-lg-12")
+                                    div(class="form-group")
+                                        label(for="") الهاتف *
+                                        input(type="number" name="phone" class="form-control" placeholder="الهاتف" required)
+                                div(class="col-lg-12")
+                                    div(class="form-group")
+                                        label(for="") الرسالة *
+                                        textarea(class="form-control" name="message" rows="5" placeholder="اترك رسالتك هنا")
+                            div(class="contact-btn")
+                                button(class="btn" type="submit") إرسال الآن
+                div(class="col-md-5 col-lg")
+                    div(class="info")
+                        div(class="contact-info")
+                            h2 معلومات التواصل:
+                            ul 
+                                li  
+                                    i(class="bi bi-envelope") 
+                                    a(href="mailto:contact@mawada.agency") بريد إلكتروني: contact@mawada.agency
+                                li  
+                                    i(class="bi bi-telephone")
+                                    a(href="tel:0597334589" dir="ltr") هاتف: 0597334589
+                                li  
+                                    i(class="bi bi-whatsapp")
+                                    a(href="tel:0597334589" dir="ltr") واتساب: 0597334589
+                        div(class="social-media")
+                            h2 سوشيال ميديا:
+                            ul 
+                                li 
+                                    a(href="", target="_blank")
+                                        i(class="bi bi-facebook") 
+                                li 
+                                    a(href="", target="_blank")
+                                        i(class="bi bi-linkedin") 
 //contact us

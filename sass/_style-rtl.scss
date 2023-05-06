@@ -18,7 +18,7 @@ html[dir=rtl] {
 
     .breadcrumb-item + .breadcrumb-item::before {
         float: right;
-        padding-left: 5px
+        padding-inline-start: 5px
     }
 
     .modal-header .btn-close {
@@ -83,7 +83,7 @@ html[dir=rtl] {
         .services-box {
             .text {
                 .details {
-                    min-height: 160px;
+                    min-height: 120px;
                 }
             }
         }
@@ -92,17 +92,17 @@ html[dir=rtl] {
 
     .form-control.is-invalid,
     .was-validated .form-control:invalid {
-        padding-left: calc(1.5em + .75rem);
+        padding-inline-start: calc(1.5em + .75rem);
         background-position: left calc(.375em + .1875rem) center;
     }
 
     .form-control.is-valid, .was-validated .form-control:valid {
-        padding-left: calc(1.5em + .75rem);
+        padding-inline-start: calc(1.5em + .75rem);
         background-position: left calc(.375em + .1875rem) center;
     }
     
     section.single-recipe-page .single-recipe-content .single-recipe-box .ingredients .ct-list li {
-        padding-left: 0;
+        padding-inline-start: 0;
         padding-right: 25px;
 
         &::before {
@@ -155,7 +155,7 @@ html[dir=rtl] {
     }
 
     .form-check {
-        padding-left: 0;
+        padding-inline-start: 0;
         padding-right: 1.5em;
     }
 
@@ -172,7 +172,7 @@ html[dir=rtl] {
     }
 
     .alert-dismissible {
-        padding-left: 3rem;
+        padding-inline-start: 3rem;
         padding-right: 10px
     }
 
@@ -195,7 +195,7 @@ html[dir=rtl] {
                 .contact {
                     ul {
                         li {
-                            padding-left: 0;
+                            padding-inline-start: 0;
                             padding-right: 40px;
 
                             i {
@@ -209,7 +209,7 @@ html[dir=rtl] {
                 .main {
                     ul {
                         li {
-                            padding-left: 0;
+                            padding-inline-start: 0;
                             padding-right: 20px;
 
                             &::after {

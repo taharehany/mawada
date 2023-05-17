@@ -46,10 +46,10 @@
             <div class="navbar">
               <div class="collapsed navbar-collapse" id="navbarNavSide">
                 <ul class="navbar-nav">
-                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#about">من نحن</a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#services">خدماتنا</a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#clients">عملائنا</a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#contact">تواصل معنا</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/">من نحن</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/">خدماتنا</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/">عملائنا</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/">تواصل معنا</a></li>
                 </ul>
               </div>
             </div>
@@ -132,7 +132,7 @@
       <footer>
         <div class="copyright"> 
           <div class="copy-text">
-            <p>جميع الحقوق محفوظة &copy;<a href="https://mawada.agency/">مودة للتسويق الرقمي.</a></p>
+            <p>جميع الحقوق محفوظة &copy;<a href="/">مودة للتسويق الرقمي.</a></p>
           </div>
         </div>
       </footer>

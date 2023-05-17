@@ -97,12 +97,11 @@
          padding-top: 50px;
       }
 
-      /* footer {
+      footer {
          position: absolute;
-         height: auto;
          width: 100%;
          bottom: 0;
-      } */
+      }
 
       </style>
       <!-- /menubar -->

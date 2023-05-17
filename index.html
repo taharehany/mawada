@@ -22,7 +22,7 @@
       <header> 
         <!--navbar desktop-->
         <nav class="navbar main-nav navbar-expand-lg">
-          <div class="container"><a class="navbar-brand" href="index.html"> <img class="white" src="images/white-logo.svg" alt="مودة"><img class="colored" src="images/logo.svg" alt="مودة"></a>
+          <div class="container"><a class="navbar-brand" href="/"> <img class="white" src="images/white-logo.svg" alt="مودة"><img class="colored" src="images/logo.svg" alt="مودة"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>

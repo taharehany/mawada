@@ -25,10 +25,10 @@
           <div class="container"><a class="navbar-brand" href="/"> <img class="white" src="images/white-logo.svg" alt="مودة"><img class="colored" src="images/logo.svg" alt="مودة"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
-                <li class="nav-item"><a class="nav-link" href="#clients">عملائنا</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#about">من نحن</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#services">خدماتنا</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#clients">عملائنا</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#contact">تواصل معنا</a></li>
               </ul>
             </div><a class="phone-number d-none d-sm-block" href="tel:0597334589">كلمنا الآن</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#side_menu" aria-controls="side_menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,10 +46,10 @@
             <div class="navbar">
               <div class="collapsed navbar-collapse" id="navbarNavSide">
                 <ul class="navbar-nav">
-                  <li class="nav-item"><a class="nav-link" href="/">من نحن</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/">خدماتنا</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/">عملائنا</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/">تواصل معنا</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#about">من نحن</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#services">خدماتنا</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#clients">عملائنا</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://mawada.agency/#contact">تواصل معنا</a></li>
                 </ul>
               </div>
             </div>
@@ -132,7 +132,7 @@
       <footer>
         <div class="copyright"> 
           <div class="copy-text">
-            <p>جميع الحقوق محفوظة &copy;<a href="/">مودة للتسويق الرقمي.</a></p>
+            <p>جميع الحقوق محفوظة &copy;<a href="https://mawada.agency/">مودة للتسويق الرقمي.</a></p>
           </div>
         </div>
       </footer>

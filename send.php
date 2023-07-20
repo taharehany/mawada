@@ -145,23 +145,13 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
-    <!-- GetButton.io widget-->
-    <script type="text/javascript">
-      (function () {
-      var options = {
-      //- facebook: "115106460341639", // Facebook page ID
-      whatsapp: "+9660597334589", // WhatsApp number
-      call_to_action: "تواصل معنا", // Call to action
-      button_color: "#FF6550", // Color of button
-      position: "left", // Position may be 'right' or 'left'
-      order: "facebook,whatsapp", // Order of buttons
-      };
-      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-      })();
-    </script>
-    <!-- /GetButton.io widget-->
+    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+        <script>
+          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"left","whatsAppNumber":"9660597334589","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
+          window.onload = () => {
+            _waEmbed(wa_btnSetting);
+          };
+        </script>
+      
   </body>
 </html>

@@ -121,7 +121,7 @@
                             $message .= "IP :\n{$_SERVER['REMOTE_ADDR']}\n";
                             $message = stripslashes($message);
                             $message = wordwrap($message, 70);
-                            mail($email,"Qaswarah",$message,"From: {$_POST["name"]} <{$_POST["email"]}>");
+                            mail($email,"مودة",$message,"From: {$_POST["name"]} <{$_POST["email"]}>");
                             echo("تم إرسال رسالتك بنجاح وسيتم التواصل معك في أقرب وقت، شكرا لك :(");
                         }
                     }

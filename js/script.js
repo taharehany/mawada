@@ -51,9 +51,9 @@ $(document).ready(function () {
     });
 
     //lazyload images
-    $("img").Lazy({
-      scrollDirection: "vertical",
-      effect: "fadeIn",
-      visibleOnly: false,
-    });
+    // $("img").Lazy({
+    //   scrollDirection: "vertical",
+    //   effect: "fadeIn",
+    //   visibleOnly: false,
+    // });
 });
